@@ -40,7 +40,7 @@ CMD ["nginx","-g","daemon off;"]
 
 # Scan image
 
-Esse scan, verifica as configurações do host, containers rodando e images existente no host, é verificado se os itens estão deacordo com as melhores praticas.
+Esse scan, verifica as configurações do host, containers rodando e images existente no host, é verificado se os itens estão de acordo com as melhores praticas.
 
 ```
 docker run -it --net host --pid host --userns host --cap-add audit_control \
